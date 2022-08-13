@@ -1,0 +1,20 @@
+// testbench
+module bolna();
+  reg [7:0]a;
+  wire [4:0]b;
+  jeetuga chand(a,b);
+  initial begin
+    a=8'b0000_0000;
+    #3 a=8'
+    #4 a=8'b0001_0010;
+    
+    #5 a=8'b0101_0001;
+    
+    #6 a=8'b0101_0101;
+    
+    #2 a=8'b1111_0001;
+   
+  end
+    
+endmodule b0001_0001;
+    
